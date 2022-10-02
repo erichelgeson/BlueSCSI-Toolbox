@@ -18,7 +18,7 @@ Flash `BlueSCSI-v1.1-20220927-STM32F1-USB-XFER_B1.bin` with [QMK](https://github
 
 ### If it does **not** end in -USB
 
-Flash `BlueSCSI-v1.1-20220927-STM32F1-XFER_B1.bin with an STLinkV2`. 
+Flash `BlueSCSI-v1.1-20220927-STM32F1-XFER_B1.bin` with an STLinkV2.
 
 https://github.com/erichelgeson/BlueSCSI/wiki/Flashing-(Advanced) 
 
