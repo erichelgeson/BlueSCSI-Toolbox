@@ -3,6 +3,8 @@ Backup your data before testing, this is a BETA!
 
 ## Prepare your BlueSCSI
 
+Download the latest release: [Beta 1](https://github.com/erichelgeson/BlueSCSI-Toolbox/releases/download/v20220927-BETA1/Beta1.zip)
+
 ### If the version in LOG.txt ends in -USB
 
 Flash `BlueSCSI-v1.1-20220927-STM32F1-USB-XFER_B1.bin` with [QMK](https://github.com/qmk/qmk_toolbox/releases/tag/0.2.2) (mac/win)
@@ -12,7 +14,7 @@ Flash `BlueSCSI-v1.1-20220927-STM32F1-USB-XFER_B1.bin` with [QMK](https://github
 * File -> Open -> Select the file.
 * Click AutoFlash
 * Plug in the BlueSCSI via USB and it will update.
-* Note on some BluePills flashing can take over a minute.
+  - Note on some BluePills flashing can take over a minute.
 
 ### If it does **not** end in -USB
 
