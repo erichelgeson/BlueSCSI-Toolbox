@@ -1,5 +1,4 @@
 # BlueSCSI Transfer Utility
-Backup your data before testing, this is a BETA!
 
 <p align="center">
   <img alt="Screen Shot of Transfer Utility" src="images/screenshot.png">
@@ -17,35 +16,7 @@ You can also upload files from your vintage mac to your SD card to backup those 
 
 ## Prepare your BlueSCSI
 
-Download the latest release: Beta for BlueSCSI v1 or v2 here - https://github.com/erichelgeson/BlueSCSI-Toolbox/releases/
-
-### Flashing the beta frimware
-
-#### BlueSCSI v2
-
-Follow the USB Method to flash the .uf2 file https://github.com/BlueSCSI/BlueSCSI-v2/wiki/Updating-Firmware#usb-method
-
-#### BlueSCSI v1 
-##### If the version in LOG.txt ends in -USB
-
-Flash `BlueSCSI-v1.1-20220927-STM32F1-USB-XFER_B1.bin` with [QMK](https://github.com/qmk/qmk_toolbox/releases/tag/0.2.2) (mac/win)
-
-* Open QMK Toolbox
-* (On Windows) Tools -> Install Drivers
-* File -> Open -> Select the file.
-* Click AutoFlash
-* Plug in the BlueSCSI via USB and it will update.
-  - Note on some BluePills flashing can take over a minute.
-
-##### If it does **not** end in -USB
-
-Flash `BlueSCSI-v1.1-20220927-STM32F1-XFER_B1.bin` with an STLinkV2.
-
-https://github.com/erichelgeson/BlueSCSI/wiki/Flashing-(Advanced) 
-
-## Copy the HD1-Beta.hda to your SD Card
-
-This image contains just the Utility. Make sure to assign it to a free SCSI ID.
+Download the latest release: Beta for BlueSCSI v1 or v2 here - https://bluescsi.com/toolbox/
 
 ## Create a "shared" folder on the SD Card
 
@@ -77,4 +48,4 @@ On the same SD Card you copied the image to, create a folder named `shared` (low
 
 ## License
 
-BlueSCSI Transfer Utility is copyright Eric Helgeson 2022. BlueSCSI name is Trademarked by Eric Helgeson. You may not modify or distribute this app.
+BlueSCSI Toolbox apps are copyright Eric Helgeson 2022-2024. BlueSCSI name is Trademarked by Eric Helgeson. BlueSCSI Toolbox apps may not be copied, modified, or distributed. They are provided "as is" without warranty.
